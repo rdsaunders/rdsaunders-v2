@@ -1,10 +1,10 @@
 ---
-title: "Activity"
-layout: "layouts/base.njk"
+title: "Photos"
+layout: "layouts/base.liquid"
 ---
 
 <ul>
-    {% for item in collections.activity %}
+    {% for item in collections.photos %}
         <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
     {% endfor %}
 </ul>
