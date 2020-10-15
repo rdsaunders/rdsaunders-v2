@@ -1,0 +1,10 @@
+---
+title: "Articles"
+layout: "layouts/base.njk"
+---
+
+<ul>
+    {% for item in collections.articles %}
+        <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+    {% endfor %}
+</ul>

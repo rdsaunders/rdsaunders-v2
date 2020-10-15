@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The lack of default Tab focus in Firefox and Safari</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+    <h1>The lack of default Tab focus in Firefox and Safari</h1>
+
+    <p>I've struggled to understand why I couldn’t use the <kbd>Tab</kbd> key to navigate a web site in Firefox on my Mac. I've been using Firefox for about six months, but I’ve never taken the time to understand why.</p>
+<p>As a long time Chrome user I hadn't had experienced this problem as Tab focus simply worked. But as I've been testing our components for accessibility I needed to find out why this was happening.</p>
+<p>It turns out Firefox is honouring the focus behaviour of the OS. This behaviour is set by a preference called <em>Use keyboard navigation to move focus between controls</em>. Its a checkbox I didn't know about, or have switched on.</p>
+<p>You can find it in System Preferences.</p>
+<ul>
+<li>Goto System Preferences</li>
+<li>Select Keyboard</li>
+<li>Switch to the Shortcuts pane</li>
+<li>And you need to place a check in the <em>Use keyboard navigation to move focus between controls.</em></li>
+</ul>
+<h2>You'll need to configure Firefox too</h2>
+<p>So it also turns out that in Mac OS you need to configure Firefox to set what elements should receive tab focus. If you don’t set this you’ll only get tab focus on text fields.</p>
+<ol>
+<li>In Firefox, type <kbd>about:config</kbd> in the URL bar.</li>
+<li>By default there is no Preference called <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Preferences/Preference_reference/accessibility.tabfocus">accessibility.tabfocus</a> on the mac so you'll have to create one.</li>
+<li>Right click in the window and select New, then &quot;integer&quot; from the context menu.</li>
+<li>Give it the preference name <em>accessibility.tabfocus</em> and then set the value to 7.</li>
+</ol>
+<p>A value of 7 will give tab focus to all elements on a page, links, linked images and all form elements. This is the default behaviour in Windows.</p>
+<h2>Safari</h2>
+<p>It’s worth noting a similar property also exists in Safari.</p>
+<p>Tab focus is only given to button elements. For links to get focus you’ll need to enable the <em>Press Tab to highlight each item on a web page</em> property in Safaris preferences. Head over to <em>Preferences</em> &gt; <em>Advanced</em> &gt; <em>Accessibility</em> to find it.</p>
+<p>So there you are, if you've switched from Chrome hopefully that little annoyance can now be resolved.</p>
+
+    
+</body>
+</html>

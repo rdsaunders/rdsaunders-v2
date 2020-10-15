@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show active DOM element in DevTools</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+    <h1>Show active DOM element in DevTools</h1>
+
+    <p>Sometimes you find yourself trying to identify a weird bug in a piece of UI and often DevTools comes to the rescue to help you out.</p>
+<p>I was experiencing an issue this week where a UI element wouldn't click and get focus without pressing it twice, it only occurred in a particular scenario and it was getting frustrating.</p>
+<p>Using DevTools and particularly the console I was able to track down the element that was getting focus and preventing my UI component from being clicked first time by using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/activeElement" title="document.activeElement property on MDN docs ">activeElement</a> JavaScript property.</p>
+<ol>
+<li>Open the DevTools console by pressing <code>Cmd+Opt+J</code> Mac or <code>Ctrl+Shift+J</code> Windows / Linux</li>
+<li>Typing the following property in the console will return the current active DOM element.</li>
+</ol>
+<pre><code class="language-js">document.activeElement
+</code></pre>
+<p><img src="/assets/uploads/2018/01/17/devtools-active-element.png" alt="A screenshot of a website with Chrome developers tools open with the console showing." title="An example of the the document.activeElement in use"></p>
+<p>By using this simple property I could track down the offending component and fix the issue.</p>
+
+    
+</body>
+</html>
