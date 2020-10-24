@@ -4,7 +4,7 @@ layout: "layouts/base.liquid"
 ---
 
 <ul>
-    {% for item in collections.checkins %}
+    {% for item in collections.checkins reversed %}
         <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
     {% endfor %}
 </ul>

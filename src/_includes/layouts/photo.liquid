@@ -1,0 +1,43 @@
+---
+layout: layouts/base.liquid
+seo:
+    type: Photograph
+---
+<article class="h-entry">
+    <header class="mb3">
+        <h1 class="f4 f3-l lh-title mt0 mb2 | p-name">{{ page.title }}</h1>
+        <time class="ttu tracked f6 mid-gray dib | dt-published" datetime="{{ page.published | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
+        
+        {{/*  {% include location.html %}  */}}
+
+    </header>
+
+
+
+    <div class="content lh-copy measure-wide-m measure-wide-l | e-content ">
+
+            <img loading="lazy" srcset="{{ site.cloudinary_url }}image/upload/w_320,f_auto/photo_blog{{ page.image }} 320w,
+                {{ site.cloudinary_url }}image/upload/w_512,f_auto/photo_blog{{ page.image }} 512w,
+                {{ site.cloudinary_url }}image/upload/w_768,f_auto/photo_blog{{ page.image }} 768w,
+                {{ site.cloudinary_url }}image/upload/w_1400,f_auto/photo_blog{{ page.image }} 1400w"
+            src="{{ site.cloudinary_url }}image/upload/w_320,f_auto/photo_blog{{ page.image }}" class="u-photo" alt="{{ page.altText}}" />
+        
+            {% if page.content.size > 1 %}        
+                {{ page.content | markdownify}}
+            {% endif %}
+
+    </div>
+
+    {% if page.tags.size > 1 %}
+    <footer class="bt f5 b--divider">
+        <div class="mv3">
+            <b>Tagged:</b> {{ page.tags | sort | join: ", " }}
+        </div>
+    </footer>
+    {% endif %} 
+
+
+    {{/*  {% include post-navigation.html %}  */}}
+
+</article>
+

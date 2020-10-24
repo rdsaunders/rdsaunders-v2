@@ -1,0 +1,29 @@
+---
+layout: layouts/base.liquid
+---
+<article class="h-entry">
+    <header class="bb bw1 pb3 b--divider">
+        <h1 class="f4 f3-l lh-title measure-narrow-ns mt0 mb2 | p-name">{{ page.date | date_to_long_string }}</h1>
+    </header>
+
+    <div class="content pt3 lh-copy measure-wide-m measure-wide-l | e-content">
+        {{ page.content }}
+
+        <picture class="mb2">
+            <source media="all and (prefers-color-scheme: dark)" srcset="https://api.mapbox.com/styles/v1/mapbox/dark-v10/static/pin-l+307fe2({{ page.geolocation.longitude }},{{ page.geolocation.latitude }})/{{ page.geolocation.longitude }},{{ page.geolocation.latitude }},15/800x300?access_token=pk.eyJ1IjoicmRzYXVuZGVycyIsImEiOiJjazNlaGQ3YXoxMDJpM251aTJzemx5ZjRrIn0.MiRvAifw2AcQ6WP2vWCaKQ">
+            <img src="https://api.mapbox.com/styles/v1/mapbox/light-v10/static/pin-l+307fe2({{ page.geolocation.longitude }},{{ page.geolocation.latitude }})/{{ page.geolocation.longitude }},{{ page.geolocation.latitude }},15/800x300?access_token=pk.eyJ1IjoicmRzYXVuZGVycyIsImEiOiJjazNlaGQ3YXoxMDJpM251aTJzemx5ZjRrIn0.MiRvAifw2AcQ6WP2vWCaKQ" alt="Map of checkin">
+          </picture>
+
+    </div>
+
+    <footer>
+        <p class="ttu tracked f6 mid-gray dib">
+            <span>{{ page.checkin }}</span> • <span>{{ page.location }}</span> • <a class="p-location h-geo" href="https://www.openstreetmap.org/#map=17/{{ page.geolocation.latitude }}/{{ page.geolocation.longitude }}" rel="noopener" target="_blank"><data class="p-latitude" value="{{ page.geolocation.latitude }}">{{ page.geolocation.latitude | round: 3 }}<abbr title="degrees">°</abbr></data>, <data class="p-longitude" value="{{ page.geolocation.longitude }}">{{ page.geolocation.longitude | round: 3 }}<abbr title="degrees">°</abbr></data></a>
+        </p>
+        
+    </footer>
+
+    {% include post-navigation.html %}
+
+</article>
+

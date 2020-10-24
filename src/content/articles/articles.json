@@ -1,4 +1,5 @@
 {
-    "layout": "layouts/base.liquid",
-    "tags": "articles"
+    "layout": "layouts/article.liquid",
+    "tags": "articles",
+    "permalink": "{{ date | date: '%Y/%m/%d' }}/{{ title | slug }}/index.html"
 }

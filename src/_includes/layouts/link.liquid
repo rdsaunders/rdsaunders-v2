@@ -1,0 +1,19 @@
+---
+layout: layouts/base.liquid
+---
+<section class="page">
+
+    <header>
+        <h1>{{ title }}</h1>
+        <p>
+            <time datetime="{{ date | date_to_xmlschema }}">{{ date | date_to_long_string }}</time>
+            {% if tags %} /
+            <span>{{ tags | array_to_sentence_string }}</span> {% endif %}
+        </p>
+    </header>
+
+    <div>
+        {{ content }}
+    </div>
+
+</section>

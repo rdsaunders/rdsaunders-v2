@@ -1,0 +1,32 @@
+---
+layout: layouts/base.liquid
+---
+
+<article class="h-entry">
+    <header class="bb bw1 pb3 b--divider">
+        <h1 class="f2 f1-l lh-title measure-narrow-ns mt0 mb2 | p-name">{{ title }}</h1>
+        {% include author.html %}
+    </header>
+
+    <div class="content pt3 lh-copy measure-wide-m measure-wide-l | e-content">
+        {{ content }}
+    </div>
+
+    {% if tags.size > 1 %}
+    <footer>
+        <div class="mb3 | p-category">
+          <b>Tagged:</b> {{ tags | array_to_sentence_string }}
+        </div>
+    </footer>
+    {% endif %} 
+    
+
+</article>
+
+<section class="webmentions">
+    <h3>Webmentions</h3>
+    {{/*  {% webmentions page.url posts replies links %}  */}}
+</section>
+
+{{/*  {% include post-navigation.html %}  */}}
+

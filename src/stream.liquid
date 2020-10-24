@@ -1,10 +1,10 @@
 ---
-title: "Articles"
+title: "Stream"
 layout: "layouts/base.liquid"
 ---
 
 <ul>
-    {% for item in collections.articles reversed %}
+    {%- for item in collections.all reversed -%}
         <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
-    {% endfor %}
+    {%- endfor -%}
 </ul>

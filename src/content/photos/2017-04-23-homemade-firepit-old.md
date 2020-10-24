@@ -1,5 +1,5 @@
 ---
-title: "Homemade firepit 🔥 old washing machine drum, BBQ paint, some coach bolts and selection of nuts. Now needs to be lit!"
+title: "Homemade firepit"
 caption: "Homemade firepit 🔥 old washing machine drum, BBQ paint, some coach bolts and selection of nuts. Now needs to be lit!"
 date: 2017-04-23T01:39Z
 location: ""

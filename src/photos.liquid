@@ -1,10 +1,14 @@
 ---
 title: "Photos"
 layout: "layouts/base.liquid"
+pagination:
+  data: collections.photos
+  reverse: true
+  size: 36
 ---
 
 <ul>
-    {% for item in collections.photos %}
+    {% for item in pagination.items %}
         <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
     {% endfor %}
 </ul>

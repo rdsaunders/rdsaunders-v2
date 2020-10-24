@@ -1,0 +1,19 @@
+<address class="flex items-center f5 | h-card">
+    <img class="br-100 | u-photo" src="/assets/richard-saunders.png?nf_resize=fit&w=48&h=48" alt="A profile photo of {{ site.author }}" width="48" height="46">
+   <p>By <span rel="author" class="p-author h-card">{{ site.author}}</span> on
+    <a class="u-url" href="{{ page.url }}"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d %H:%M:%S" }}">{{ page.date | date_to_long_string }}</time></a>
+    
+    {% if page.categories.size > 0 %}
+    in
+        {% if post %}
+            {% assign categories = post.categories %}
+        {% else %}
+            {% assign categories = page.categories %}
+        {% endif %}
+        {% for category in categories %}
+         <a class="p-category" href="/categories/#{{category|slugize}}">{{category}}</a>
+         {% unless forloop.last %}&nbsp;{% endunless %}
+        {% endfor %}
+    {% endif %}
+    </p>
+</address>

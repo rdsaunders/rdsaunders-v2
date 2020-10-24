@@ -1,6 +1,5 @@
 {
-    "layout": "layouts/base.liquid",
-    "tags": [
-        "photos"
-    ]
+    "layout": "layouts/photo.liquid",
+    "tags": "photos",
+    "permalink": "photos/{{ page.date | date: '%Y/%m/%d' }}/{{ page.fileSlug }}/index.html"
 }

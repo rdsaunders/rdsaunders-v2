@@ -1,4 +1,6 @@
 {
     "layout": "layouts/base.liquid",
-    "tags": "talks"
+    "tags": "talks",
+    "permalink": "talks/{{ page.date | date: '%Y/%m/%d' }}/{{ title | slug }}/index.html"
+
 }
