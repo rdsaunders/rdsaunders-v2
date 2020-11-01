@@ -7,6 +7,6 @@ geolocation:
   latitude: ""
   longitude: ""
 tags: [Christmas, tree, beer, Christmas Eve]
-image: /assets/uploads/2019/12/christmas-eve-beer-wind-down.jpg
+image: /images/photos/2019/12/christmas-eve-beer-wind-down.jpg
 ---
 Pia, Trzech Kumpli - Browar Lotny, NZ Session IPA

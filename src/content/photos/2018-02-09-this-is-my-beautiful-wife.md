@@ -13,7 +13,7 @@ tags:
 - Reading
 - Bible
 - Relationship
-image: "/assets/uploads/2018/02/eaa9c278fb0ea81430f459c7481f6d93.jpg"
+image: "/images/photos/2018/02/eaa9c278fb0ea81430f459c7481f6d93.jpg"
 altText: A woman sat reading a bible in a bay window
 
 ---

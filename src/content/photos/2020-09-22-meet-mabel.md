@@ -7,5 +7,5 @@ geolocation:
   latitude: "51.58554166666666"
   longitude: "-3.020413833333333"
 tags: [Chicken, Hen, Poultry]
-image: /assets/uploads/2020/09/meet-mabel.jpg
+image: /images/photos/2020/09/meet-mabel.jpg
 ---

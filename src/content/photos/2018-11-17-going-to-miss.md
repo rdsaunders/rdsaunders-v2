@@ -7,7 +7,7 @@ tags:
 - Mother
 - Child
 - Smiling
-image: "/assets/uploads/2018/11/8a7318c4e969d267eda942586301cb2d.jpg"
+image: "/images/photos/2018/11/8a7318c4e969d267eda942586301cb2d.jpg"
 altText: A mother in a stripy top holding a small baby
 
 ---

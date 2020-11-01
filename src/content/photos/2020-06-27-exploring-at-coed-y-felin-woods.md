@@ -7,5 +7,5 @@ geolocation:
   latitude: ""
   longitude: ""
 tags: [Girl, children, woodland, Cardiff ]
-image: /assets/uploads/2020/06/exploring-at-coed-y-felin-woods.jpg
+image: /images/photos/2020/06/exploring-at-coed-y-felin-woods.jpg
 ---

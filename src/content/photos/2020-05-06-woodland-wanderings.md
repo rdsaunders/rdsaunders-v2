@@ -7,5 +7,5 @@ geolocation:
   latitude: ""
   longitude: ""
 tags: [Girls, dad, children, woodland, stream, log]
-image: /assets/uploads/2020/05/woodland-wanderings.jpg
+image: /images/photos/2020/05/woodland-wanderings.jpg
 ---

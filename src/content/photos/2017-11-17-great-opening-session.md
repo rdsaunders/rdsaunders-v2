@@ -4,5 +4,5 @@ caption: "Great opening session from Steve Gambil, fight the good fight of faith
 date: 2017-11-17T13:08Z
 location: "LIFE Church Home"
 tags: "xcelconf"
-image: /assets/uploads/2017/11/d4a6b564b19e0a54bbce7e61ed2c0779.jpg
+image: /images/photos/2017/11/d4a6b564b19e0a54bbce7e61ed2c0779.jpg
 ---

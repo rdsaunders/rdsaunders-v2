@@ -8,5 +8,5 @@ caption: "Our girl up Fan Fawr, Taids Mountain and favourite Psalm, 121
 date: 2017-04-02T12:38Z
 location: "Fan Fawr"
 tags: ""
-image: /assets/uploads/2017/04/b0de58e531bc78dab7852f78a37e7df1.jpg
+image: /images/photos/2017/04/b0de58e531bc78dab7852f78a37e7df1.jpg
 ---

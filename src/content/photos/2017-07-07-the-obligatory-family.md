@@ -4,5 +4,5 @@ caption: "The obligatory family selfie. The little one was getting pretty tired 
 date: 2017-07-07T13:32Z
 location: ""
 tags: "shotoniphone7plus pembrokeshire pembrokeshire pembrokeshire"
-image: /assets/uploads/2017/07/41b64fbaeedae9002ad6f7cf16f19aa3.jpg
+image: /images/photos/2017/07/41b64fbaeedae9002ad6f7cf16f19aa3.jpg
 ---

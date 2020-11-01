@@ -4,7 +4,7 @@ caption: "My amazing girl, pulling off pregnancy in her stride. She amazes me in
 date: 2018-05-05T04:38Z
 location: ''
 tags: 22daystogo
-image: "/assets/uploads/2018/05/670953c8ec7d568796bd4003fa09aef0.jpg"
+image: "/images/photos/2018/05/670953c8ec7d568796bd4003fa09aef0.jpg"
 altText: 'A pregnant woman standing holding her belly in a garden. '
 
 ---

@@ -4,5 +4,5 @@ caption: "Trees are nearly down. We can actually see the bottom of the garden. T
 date: 2014-08-20T00:23Z
 location: ""
 tags: ""
-image: /assets/uploads/2014/08/243f52e07af1462b1e026128fe8ed004.jpg
+image: /images/photos/2014/08/243f52e07af1462b1e026128fe8ed004.jpg
 ---

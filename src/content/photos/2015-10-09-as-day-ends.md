@@ -5,5 +5,5 @@ description: "Strangely this was the first sunset we managed to capture. The day
 date: 2015-10-09T06:20Z
 location: "Agriturismo Il Poderaccio"
 tags: "tuscany italy siena italian Ilpoderaccio vagliagli sunset skyline dusk"
-image: /assets/uploads/2015/10/792ad8b412d805c0cbbb6c1794fef619.jpg
+image: /images/photos/2015/10/792ad8b412d805c0cbbb6c1794fef619.jpg
 ---

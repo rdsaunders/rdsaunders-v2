@@ -7,5 +7,5 @@ geolocation:
   latitude: ""
   longitude: ""
 tags: [Tree, girl, child, climbing, outdoorsisfree ]
-image: /assets/uploads/2020/06/climbing-trees-and-scooting.jpg
+image: /images/photos/2020/06/climbing-trees-and-scooting.jpg
 ---

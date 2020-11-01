@@ -4,5 +4,5 @@ caption: "Found this one in the washing basket. I think it's known as a washing 
 date: 2017-05-14T14:14Z
 location: ""
 tags: ""
-image: /assets/uploads/2017/05/998bb999884f4c570859f102fb371f01.jpg
+image: /images/photos/2017/05/998bb999884f4c570859f102fb371f01.jpg
 ---

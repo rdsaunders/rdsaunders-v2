@@ -7,6 +7,6 @@ geolocation:
   latitude: ''
   longitude: ''
 tags: []
-image: "/assets/uploads/2020/02/C431880D-7BA1-4A4A-AA13-826682673CF9.JPG"
+image: "/images/photos/2020/02/C431880D-7BA1-4A4A-AA13-826682673CF9.JPG"
 
 ---

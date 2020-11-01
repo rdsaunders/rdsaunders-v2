@@ -7,7 +7,7 @@ tags:
 - Wild Camping
 - Fire
 - Bushcraft
-image: "/assets/uploads/2019/01/27ad8146bdefdd13f507163d77c755fd.jpg"
+image: "/images/photos/2019/01/27ad8146bdefdd13f507163d77c755fd.jpg"
 altText: 'A mug sat on a log in front of a fire in the woods that reads: Not all who
   wander are lost.'
 

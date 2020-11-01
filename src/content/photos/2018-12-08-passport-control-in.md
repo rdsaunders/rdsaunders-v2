@@ -8,7 +8,7 @@ tags:
 - Surkhet
 - Airport
 - Police Man
-image: "/assets/uploads/2018/12/ea945d0800bae7c2900d2668147eba91.jpg"
+image: "/images/photos/2018/12/ea945d0800bae7c2900d2668147eba91.jpg"
 altText: A police man standing in front of a plane
 
 ---

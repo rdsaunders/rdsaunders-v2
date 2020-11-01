@@ -29,11 +29,11 @@ But responsive design covers a much wider range of variables than the three core
 
 Screen size is one of the largest considerations we have to make in a responsive web design project and its really easy to fall into the trap of simply designing for the most common breakpoints. iPhones, iPads and desktops are often cited in design and build discussions but they don’t even begin to cover the vast device landscape that we have to work with.
 
-![A line diagram depicting a phone, tablet and desktop](/assets/devices.png)
+![A line diagram depicting a phone, tablet and desktop](/images/devices.png)
 
 In their 2013 Android Fragmentation report OpenSignal identified 11,868 distinct Android devices using their app. The data also indicated 100’s of unique screen sizes across these devices.
 
-![A diagram illustrating the unique screen sizes on Android devices](/assets/fragmentation.png)
+![A diagram illustrating the unique screen sizes on Android devices](/images/fragmentation.png)
 
 ## Device-Fragmentation
 
@@ -45,7 +45,7 @@ Feature phones, smartphones, tablets and desktops make up a large proportion of 
 
 ## SmartTV / Games Consoles
 
-![A line diagram depicting common games consoles](/assets/game-consoles.png)
+![A line diagram depicting common games consoles](/images/game-consoles.png)
 
 If you look around the modern home, you haven’t got to look very far to find a device that connects to the internet. Theres a good chance if you’ve bought a TV in the last 12 months it can connect to the internet and a series of online services. Smart TVs are becoming the norm in the living room, even my parents have one!
 
@@ -55,7 +55,7 @@ Have you ever considered what experience you are giving to a visitor to your sit
 
 ## HiDPI & Retina Displays
 
-![A line diagram depicting a pixel density](/assets/hidpi.png)
+![A line diagram depicting a pixel density](/images/hidpi.png)
 
 With devices like the MacBook Pro Retina, Google Nexus 10 and latest iPads and iPhones sporting retina displays, the web is beginning to look a little ugly.
 
@@ -110,7 +110,7 @@ Be aware if you use any custom gesturing libraries for components such as maps o
 
 ### Performance &amp; Connectivity
 
-![An illustration of a performance waterfall over time](/assets/performance.png)
+![An illustration of a performance waterfall over time](/images/performance.png)
 
 As we continue to design for an evolving web, the places that we consume content or interact with sites can vary. Whether thats on a train or tube, on the high street, in the comfort of our own home or walking in the countryside. There’s usually no limit to where we can access the web, and we can’t assume we know where those users are simply by the device they are using.
 

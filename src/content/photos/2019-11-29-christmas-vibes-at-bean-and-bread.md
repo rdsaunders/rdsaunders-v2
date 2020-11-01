@@ -7,5 +7,5 @@ geolocation:
   latitude: "51.82327833333333"
   longitude: "-3.0171445"
 tags: [Christmas, Abergavenny, Coffee Shop, Coffee]
-image: /assets/uploads/2019/11/christmas-vibes-at-bean-and-bread.jpg
+image: /images/photos/2019/11/christmas-vibes-at-bean-and-bread.jpg
 ---

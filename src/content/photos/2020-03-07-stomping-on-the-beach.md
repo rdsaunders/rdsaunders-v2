@@ -7,6 +7,6 @@ geolocation:
   latitude: "51.47832833333333"
   longitude: "-3.671578333333333"
 tags: [Girl, family, beach, Porthcawl ]
-image: /assets/uploads/2020/3/stomping-on-the-beach.jpg
+image: /images/photos/2020/3/stomping-on-the-beach.jpg
 ---
 It may have been cold but it’s always good to get out in the fresh air. 

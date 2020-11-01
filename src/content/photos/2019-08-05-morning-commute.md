@@ -1,7 +1,7 @@
 ---
 title: Morning commute
 date: 2019-08-04T23:00:00.000+00:00
-image: "/assets/uploads/2019/08/IMG_7642.jpeg"
+image: "/images/photos/2019/08/IMG_7642.jpeg"
 location: Newport, Wales
 geolocation:
   latitude: ''

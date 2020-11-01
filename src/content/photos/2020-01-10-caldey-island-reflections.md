@@ -7,5 +7,5 @@ geolocation:
   latitude: "51.67036166666666"
   longitude: "-4.693411666666667"
 tags: [Caldey Island, Beach, Tenby, Reflections]
-image: /assets/uploads/2020/1/caldey-island-reflections.jpg
+image: /images/photos/2020/1/caldey-island-reflections.jpg
 ---

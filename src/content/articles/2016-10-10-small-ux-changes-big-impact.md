@@ -20,7 +20,7 @@ I used to use an app called Tube Deluxe, but it wasn't installed on my phone. I 
 
 However a little delighter for me was when orienting my phone in to Landscape some additional journey information was displayed, highlighting duration and what stations I had to change at, a simple interaction and a side effect of a responsive layout.
 
-![Transport for Londons Journey Planner in landscape](/assets/tfl.png)
+![Transport for Londons Journey Planner in landscape](/images/tfl.png)
 
 ## Apple Pay on the London Underground
 
@@ -48,7 +48,7 @@ I'm not sure when this change was introduced but for an irregular user of the tu
 
 ## Tube journeys using Google Maps
 
-![Google Maps tub journeys](/assets/googlemaps.png)
+![Google Maps tub journeys](/images/googlemaps.png)
 
 I've been using Google Maps since it was first launched, and you're never aware of all the little features until someone points them out to you.
 

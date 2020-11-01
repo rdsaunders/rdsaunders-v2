@@ -7,5 +7,5 @@ geolocation:
   latitude: ""
   longitude: ""
 tags: [Child, girl, daughter, play, tunnel, bnw ]
-image: /assets/uploads/2020/2/m-enjoying-soft-play.jpg
+image: /images/photos/2020/2/m-enjoying-soft-play.jpg
 ---

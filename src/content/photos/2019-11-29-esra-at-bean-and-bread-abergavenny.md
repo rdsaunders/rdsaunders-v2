@@ -7,5 +7,5 @@ geolocation:
   latitude: "51.823055"
   longitude: "-3.017372166666667"
 tags: [Dog, Coffee, Bean and Bread, Abergavenny]
-image: /assets/uploads/2019/11/esra-at-bean-and-bread-abergavenny.jpg
+image: /images/photos/2019/11/esra-at-bean-and-bread-abergavenny.jpg
 ---

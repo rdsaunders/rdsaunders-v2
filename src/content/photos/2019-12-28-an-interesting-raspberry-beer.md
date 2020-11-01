@@ -7,6 +7,6 @@ geolocation:
   latitude: ""
   longitude: ""
 tags: [Ale, Beer, Raspberry ]
-image: /assets/uploads/2019/12/an-interesting-raspberry-beer.jpg
+image: /images/photos/2019/12/an-interesting-raspberry-beer.jpg
 ---
 This was an unusual one this evening. Certainly not something I’d normally drink or likely to have again! 

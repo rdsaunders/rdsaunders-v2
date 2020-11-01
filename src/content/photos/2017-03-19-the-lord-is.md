@@ -4,5 +4,5 @@ caption: "The LORD is my light and my salvation; whom shall I fear? The LORD is 
 date: 2017-03-19T14:12Z
 location: ""
 tags: ""
-image: /assets/uploads/2017/03/3741126620e53f48826e6034cf986d6b.jpg
+image: /images/photos/2017/03/3741126620e53f48826e6034cf986d6b.jpg
 ---

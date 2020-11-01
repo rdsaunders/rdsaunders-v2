@@ -7,5 +7,5 @@ geolocation:
   latitude: ""
   longitude: ""
 tags: [Chicken, Girl]
-image: /assets/uploads/2020/09/morning-cuddles-with-a-chicken.jpg
+image: /images/photos/2020/09/morning-cuddles-with-a-chicken.jpg
 ---

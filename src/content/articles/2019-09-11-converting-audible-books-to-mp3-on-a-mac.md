@@ -9,7 +9,7 @@ tags:
 - Books
 
 ---
-![The open Audible interface showing the artwork of Elon Musk's biography.](/assets/uploads/2019/10/OpenAudible.png "A screenshot of the Open Audible interface")
+![The open Audible interface showing the artwork of Elon Musk's biography.](/images/photos/2019/10/OpenAudible.png "A screenshot of the Open Audible interface")
 
 I recently found myself wanting to convert my Audible audio books to play back in our car. Audible books have DRM applied to them so needed a way of extracting the audio from Audible AAX files and converting them to MP3.
 

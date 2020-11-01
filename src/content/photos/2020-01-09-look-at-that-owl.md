@@ -7,6 +7,6 @@ geolocation:
   latitude: "51.78757833333334"
   longitude: "-4.806763333333333"
 tags: [Winter lights, Bluestone, Owl, Girl, Night]
-image: /assets/uploads/2020/1/look-at-that-owl.jpg
+image: /images/photos/2020/1/look-at-that-owl.jpg
 ---
 Love the creativity in these owls at Winter lights in Bluestone. 

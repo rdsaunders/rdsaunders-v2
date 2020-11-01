@@ -4,5 +4,5 @@ caption: "Great poached eggs at Waterloo tea rooms. Washed down with a strong fl
 date: 2014-03-14T02:42Z
 location: "Waterloo Gardens Teahouse"
 tags: ""
-image: /assets/uploads/2014/03/7d5466747403f34f6fa3af627fab0cdb.jpg
+image: /images/photos/2014/03/7d5466747403f34f6fa3af627fab0cdb.jpg
 ---

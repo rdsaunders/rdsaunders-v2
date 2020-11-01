@@ -7,6 +7,6 @@ geolocation:
   latitude: "51.54018333333333"
   longitude: "-3.18197"
 tags: [Dog, woods, winter, outside]
-image: /assets/uploads/2019/12/a-little-wander-in-the-woods.jpg
+image: /images/photos/2019/12/a-little-wander-in-the-woods.jpg
 ---
 Good to stretch the legs after Sunday lunch. 

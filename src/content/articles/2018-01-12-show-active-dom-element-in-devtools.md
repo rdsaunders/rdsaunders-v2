@@ -27,6 +27,6 @@ Using DevTools and particularly the console I was able to track down the element
 document.activeElement
 ```
 
-![A screenshot of a website with Chrome developers tools open with the console showing.](/assets/uploads/2018/01/17/devtools-active-element.png "An example of the the document.activeElement in use")
+![A screenshot of a website with Chrome developers tools open with the console showing.](/images/photos/2018/01/17/devtools-active-element.png "An example of the the document.activeElement in use")
 
 By using this simple property I could track down the offending component and fix the issue.

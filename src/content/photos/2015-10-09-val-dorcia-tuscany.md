@@ -5,5 +5,5 @@ description: Being the end of the summer most of the surrounding fields we're no
 date: 2015-10-09T08:31Z
 location: "Val d'Orcia"
 tags: "tuscany italy siena italian Montepulciano goldenhour pienza valdorcia"
-image: /assets/uploads/2015/10/b2863d974e27573c1a69a1884af703ef.jpg
+image: /images/photos/2015/10/b2863d974e27573c1a69a1884af703ef.jpg
 ---

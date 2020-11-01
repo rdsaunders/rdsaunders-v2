@@ -7,6 +7,6 @@ geolocation:
   latitude: "51.58767"
   longitude: "-3.023041666666667"
 tags: [Daffodils, spring, winter, flower]
-image: /assets/uploads/2020/1/daffodils-in-january.jpg
+image: /images/photos/2020/1/daffodils-in-january.jpg
 ---
 It’s amazing to think it’s the middle of January and we’re seeing these daffodils in bloom on such a cold day. 

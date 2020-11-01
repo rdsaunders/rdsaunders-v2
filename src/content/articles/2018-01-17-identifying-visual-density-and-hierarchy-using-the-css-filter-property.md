@@ -7,11 +7,11 @@ excerpt: Use the filter CSS property as a quick acid test to see which elements 
 tags:
 - CSS
 - Design
-image: "/assets/uploads/2018/01/17/visual-density.png"
+image: "/images/photos/2018/01/17/visual-density.png"
 categories: []
 
 ---
-![A screenshot of the bbc website converted to grayscale and a blur applied](/assets/uploads/2018/01/17/visual-density.png)
+![A screenshot of the bbc website converted to grayscale and a blur applied](/images/photos/2018/01/17/visual-density.png)
 
 When building an application, you can't always put you finger to why something feels wrong in the design, often it can be down to the visual density or hierarchy of the elements on the screen.
 

@@ -7,5 +7,5 @@ geolocation:
   latitude: ""
   longitude: ""
 tags: [Children, girls, dog, border collie, woods]
-image: /assets/uploads/2020/06/walks-in-the-woods.jpg
+image: /images/photos/2020/06/walks-in-the-woods.jpg
 ---

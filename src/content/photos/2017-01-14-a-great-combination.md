@@ -4,5 +4,5 @@ caption: "A great combination port and a good book! I think @freekoutfitch @beng
 date: 2017-01-14T13:12Z
 location: ""
 tags: ""
-image: /assets/uploads/2017/01/73d86dd7666df7f5e47b650d2aa90ddd.jpg
+image: /images/photos/2017/01/73d86dd7666df7f5e47b650d2aa90ddd.jpg
 ---

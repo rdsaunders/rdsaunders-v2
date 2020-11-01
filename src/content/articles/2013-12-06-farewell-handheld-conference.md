@@ -12,6 +12,7 @@ Highlights included an interactive game of 'Guess Who', comical songs from Bruce
 I can't even begin to do the talks justice in a short blog post but I'll sum up the key takeaways which had the most impact to me.
 
 ## Responsive Design
+
 One of the common themes of the conference was the business of responsive design. Andy Clarke and Mark Boulton both gave their views on the subject, drawing from their experience working with clients such as Al Jazeera, Cern and STV.
 
 They highlighted that responsive design is not just the responsibility of the designer or developer but has an impact on everyone involved in a RWD project; from the way we sign off, the way the client is involved, how we should bill for work to how feedback should be given and encouraged.
@@ -21,7 +22,8 @@ The traditional waterfall workflow breaks in the world of responsive design. We 
 Our processes need to adapt too, this can really challenge the very fabric of an organisation, those that we work for and for us here at Zengenti, the talks at Handheld have re invigorated these conversations, exciting times.
 
 ## Designing with Data
-I hated maths at school; I did it because I had to, not for the desire to look at numbers or solve problems. But seeing numbers in nature (Fibonacci / Golden ratio),  and data visualised is a completely different story. I’ve always been a fan of data journalist David McCandless' work and the way he displays vast amounts of data in interesting ways.
+
+I hated maths at school; I did it because I had to, not for the desire to look at numbers or solve problems. But seeing numbers in nature (Fibonacci / Golden ratio), and data visualised is a completely different story. I’ve always been a fan of data journalist David McCandless' work and the way he displays vast amounts of data in interesting ways.
 
 I’ve heard the name Brendan Dawes across the web, probably from the days when I tried to learn ActionScript with Flash (yes I was one of them), but never really knew of his work until Handheld.
 
@@ -30,6 +32,7 @@ Brendan gave a humorous and interesting talk on how “Data is falling around us
 If you never thought numbers could be interesting, I dare you not to be enthralled by the Brendans work.
 
 ## The Ten Commandments of Modern Web Design
+
 Jeffrey Zeldman closed the event in terrific style with his ten commandments. I’ve noted them down as they provide a great reference.
 
 1. **Thou shalt entertain** - delight, entertain and surprise. Panic.com was given as great example of keeping content light and conversational with fun and playful imagery. Panic sell boring products, but they have solid following of active users.
@@ -55,6 +58,7 @@ Jeffrey Zeldman closed the event in terrific style with his ten commandments. I�
 **Remember:** This is Design Not Religion.
 
 ## In Summary
+
 It was an extremely packed day, yet surprisingly I didn't feel overwhelmed with the wide range of content that filled it.
 
 It was announced that there will be no Handheld event next year, this is disappointing, but there is some light at the end of the tunnel: there may be other events under a different name. Fingers crossed...

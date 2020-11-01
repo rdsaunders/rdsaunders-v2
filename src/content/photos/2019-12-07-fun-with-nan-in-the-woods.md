@@ -7,5 +7,5 @@ geolocation:
   latitude: ""
   longitude: ""
 tags: [Winter, woods, nature, child, smile]
-image: /assets/uploads/2019/12/fun-with-nan-in-the-woods.jpg
+image: /images/photos/2019/12/fun-with-nan-in-the-woods.jpg
 ---

@@ -7,7 +7,7 @@ tags:
 - Sunset
 - Lamp
 - Light
-image: "/assets/uploads/2012/05/8bd8f528e899cfc616a78360f070c5b8.jpg"
+image: "/images/photos/2012/05/8bd8f528e899cfc616a78360f070c5b8.jpg"
 altText: A traditional gas style lamp post against a sunset
 
 ---

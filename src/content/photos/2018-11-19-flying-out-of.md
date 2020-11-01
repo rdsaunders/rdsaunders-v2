@@ -7,7 +7,7 @@ tags:
 - Oman
 - Plane
 - Aerial
-image: "/assets/uploads/2018/11/349f2537c63e77101895feef7d41474d.jpg"
+image: "/images/photos/2018/11/349f2537c63e77101895feef7d41474d.jpg"
 altText: An aerial view of Oman from a plane showing buildings and large expanses
   of brown land
 

@@ -4,5 +4,5 @@ caption: "If you love coffee, hate  want to see  abolished in  and across the  p
 date: 2017-06-30T13:49Z
 location: "Newport, Wales"
 tags: "humantrafficking moderndayslavery wales globe imanumit coffee doyoumanumit coffeelover roastery"
-image: /assets/uploads/2017/06/26efac9efd8e848891141d59951b840c.jpg
+image: /images/photos/2017/06/26efac9efd8e848891141d59951b840c.jpg
 ---

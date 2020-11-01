@@ -7,5 +7,5 @@ geolocation:
   latitude: "51.67158"
   longitude: "-4.694721666666666"
 tags: [Tenby, Pembrokeshire, Wales, Beach, Winter, Sand, South Beach, Caldey Island]
-image: /assets/uploads/2020/1/winter-fun-on-the-beach.jpg
+image: /images/photos/2020/1/winter-fun-on-the-beach.jpg
 ---

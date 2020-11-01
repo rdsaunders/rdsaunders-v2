@@ -6,7 +6,7 @@ location: ''
 tags:
 - Girl
 - Child
-image: "/assets/uploads/2018/05/1711815621a353c7aa22e4c362349544.jpg"
+image: "/images/photos/2018/05/1711815621a353c7aa22e4c362349544.jpg"
 altText: A little girl sat in the gradd wearing a bright pink flowery t-shirt and
   dungarees
 

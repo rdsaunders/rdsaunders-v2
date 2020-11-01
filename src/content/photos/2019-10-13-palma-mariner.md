@@ -1,7 +1,7 @@
 ---
 title: Morning reflections
 date: 2019-10-12T23:00:00.000+00:00
-image: "/assets/uploads/2019/10/palma-mariner.jpg"
+image: "/images/photos/2019/10/palma-mariner.jpg"
 location: Palma, Mallorca
 geolocation:
   latitude: "39.567194"

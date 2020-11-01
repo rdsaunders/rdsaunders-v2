@@ -4,5 +4,5 @@ caption: "I can't believe this little on is 4 months old already. She brings so 
 date: 2016-08-14T09:45Z
 location: ""
 tags: "lovebeingadad"
-image: /assets/uploads/2016/08/77a8c81fe0613ac28132759faf0e44c1.jpg
+image: /images/photos/2016/08/77a8c81fe0613ac28132759faf0e44c1.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2019-10-28T00:00:00.000+00:00
 title: Autumn days
-image: "/assets/uploads/2019/10/IMG_0690.jpg"
+image: "/images/photos/2019/10/IMG_0690.jpg"
 location: Newport
 geolocation:
   latitude: ''

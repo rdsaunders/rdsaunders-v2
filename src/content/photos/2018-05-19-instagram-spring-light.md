@@ -9,7 +9,7 @@ tags:
 - Sunlight
 - Beech
 - Woodland
-image: "/assets/uploads/2018/05/81a21ac1593f42986ad2a09ee9d8fa3e.jpg"
+image: "/images/photos/2018/05/81a21ac1593f42986ad2a09ee9d8fa3e.jpg"
 altText: Sun shining through beach tree leaves
 
 ---

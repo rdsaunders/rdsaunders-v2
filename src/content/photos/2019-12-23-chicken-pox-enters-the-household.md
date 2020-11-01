@@ -7,5 +7,5 @@ geolocation:
   latitude: ""
   longitude: ""
 tags: [Christmas, Chicken Pox]
-image: /assets/uploads/2019/12/chicken-pox-enters-the-household.jpg
+image: /images/photos/2019/12/chicken-pox-enters-the-household.jpg
 ---

@@ -7,5 +7,5 @@ geolocation:
   latitude: "51.58552166666666"
   longitude: "-3.0203695"
 tags: [Chicken, Poultry, Hen, Light Sussex]
-image: /assets/uploads/2020/09/light-sussex.jpg
+image: /images/photos/2020/09/light-sussex.jpg
 ---

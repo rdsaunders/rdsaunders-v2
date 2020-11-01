@@ -9,7 +9,7 @@ tags:
 - outsideisfree
 - ridgeway
 - horses
-image: "/assets/uploads/2019/05/e7a70332abf68c37a471154ee31f05b1.jpg"
+image: "/images/photos/2019/05/e7a70332abf68c37a471154ee31f05b1.jpg"
 altText: Horses looking through a hedgerow in morning sunlight
 
 ---

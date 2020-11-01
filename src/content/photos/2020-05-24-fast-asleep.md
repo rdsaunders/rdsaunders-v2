@@ -7,5 +7,5 @@ geolocation:
   latitude: ""
   longitude: ""
 tags: [COVID-19, baby, Newborn, babygirl ]
-image: /assets/uploads/2020/05/fast-asleep.jpg
+image: /images/photos/2020/05/fast-asleep.jpg
 ---
