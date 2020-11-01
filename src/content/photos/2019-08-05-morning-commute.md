@@ -9,7 +9,7 @@ geolocation:
 photoset: ''
 category: []
 tags:
-- Train
+- train
 - communte
 - black and white
 - bnw
