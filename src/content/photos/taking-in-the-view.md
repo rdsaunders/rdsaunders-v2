@@ -8,12 +8,7 @@ geolocation:
   longitude: "3.694"
 photoset: ''
 category: []
-tags:
-- Spain
-- Zengenti
-- mallorca
-- train
-- palma
+tags: [spain, zengenti, mallorca, train, palma]
 altText: A man sat down looking out of the train window.
 
 ---

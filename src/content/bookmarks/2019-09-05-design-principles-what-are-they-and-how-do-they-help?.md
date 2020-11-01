@@ -7,8 +7,5 @@ excerpt: From Silicon Valley startups like Airbnb to multi-national companies li
   IBM, design principles are becoming adopted. But what exactly are design principles?
   Senior management is very good at establishing goals, but are much worse at clearly
   defining how the company will achieve those goals.
-tags:
-- Design principles
-- Workshop
-
+tags: [design principles, workshop]
 ---
