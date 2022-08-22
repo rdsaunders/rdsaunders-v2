@@ -5,9 +5,7 @@ excerpt: I've recently added a photos section to my site, and in keeping with th
   indie web movement I wanted to post content to my site first and look to POSSE later.
 date: 2019-11-18T22:50:00.000+00:00
 categories: []
-tags:
-- Photography
-- Front-end development
+tags: [photography, front-end, development]
 
 ---
 I've recently added a photos section to my site, and in keeping with the indie web movement I wanted to post photos to my site first and look to POSSE later.

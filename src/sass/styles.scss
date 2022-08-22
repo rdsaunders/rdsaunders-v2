@@ -1,0 +1,331 @@
+:root {
+    --color-mode: 'light';
+    --blue: #307FE2;
+    --near-black: #141414;
+    --white: #fff;
+    --near-white: #fafafa;
+    --soft-white: #c3c1c1;
+    --gray: #ccc;
+    --neutral-gray: #222;
+    --mid-gray: #555;
+    --light-gray: #eee;
+    --spacing-extra-small: .25rem;
+    --spacing-small: .5rem;
+    --spacing-medium: 1rem;
+    --spacing-large: 2rem;
+    --spacing-extra-large: 4rem;
+    --breakpoint-not-small: 'screen and (min-width: 30em)';
+    --breakpoint-medium: 'screen and (min-width: 30em) and (max-width: 60em)';
+    --breakpoint-large: 'screen and (min-width: 60em)';
+    --text-color: var(--near-black);
+    --body-color: var(--near-white);
+    --button-bg-color: var(--body-color);
+    --link-txt-color: var(--text-color);
+    --divider-color: var(--light-gray);
+    --icon-color: var(--near-black);
+    --kbd-bg-color: var(--white);
+    --kbd-stroke-color: var(--gray);
+    --table-row-color: var(--white);
+    --table-stroke-color: var(--light-gray);
+    --pill-bg-color: var(--mid-gray);
+    --pill-txt-color: var(--white);
+}
+
+@media (prefers-color-scheme: dark) {
+
+    :root {
+        --color-mode: 'dark';
+    }
+
+    :root:not([data-user-color-scheme]) {
+        --text-color: var(--soft-white);
+        --body-color: var(--near-black);
+        --link-txt-color: var(--text-color);
+        --divider-color: var(--neutral-gray);
+        --icon-color: var(--text-color);
+        --kbd-bg-color: var(--neutral-gray);
+        --kbd-stroke-color: var(--mid-gray);
+        --table-row-color: var(--neutral-gray);
+        --table-stroke-color: var(--mid-gray);
+        --mid-gray: #808080;
+        --pill-bg-color: var(--mid-gray);
+        --pill-txt-color: var(--white);
+
+
+        img {
+            filter: brightness(.8) contrast(1.1);
+        }
+
+        img:hover {
+            filter: brightness(1) contrast(1);
+        }
+    }
+
+}
+
+// Create sass mixin to repeat this, used where prefers colour is not available
+[data-user-color-scheme='dark'] {
+    --text-color: var(--soft-white);
+    --body-color: var(--near-black);
+    --link-txt-color: var(--text-color);
+    --divider-color: var(--neutral-gray);
+    --icon-color: var(--text-color);
+    --kbd-bg-color: var(--neutral-gray);
+    --kbd-stroke-color: var(--mid-gray);
+    --table-row-color: var(--neutral-gray);
+    --table-stroke-color: var(--mid-gray);
+    --mid-gray: #808080;
+    --pill-bg-color: var(--mid-gray);
+    --pill-txt-color: var(--white);
+
+    img {
+        filter: brightness(.8) contrast(1.1);
+    }
+
+    img:hover {
+        filter: brightness(1) contrast(1);
+    }
+}
+
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+.icon {
+    fill: var(--icon-color);
+}
+
+.logo {
+    color: var(--text-color);
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+}
+
+.content p {
+    margin-top: 0;
+}
+
+
+.skip-link {
+    padding: 0.25rem 0.5rem;
+    position: absolute;
+    top: -10rem;
+    left: 0;
+    color: var(--text-color);
+    background-color: var(--body-color);
+    transition: top 1s ease-out,
+        left 1s ease-out;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+    outline-color: transparent;
+    transition: top 0.1s ease-in,
+        left 0.1s ease-in;
+}
+
+
+hr {
+    color: var(--divider-color);
+}
+
+.sans-serif {
+    font-family: -apple-system, BlinkMacSystemFont,
+        'avenir next', avenir,
+        'helvetica neue', helvetica,
+        ubuntu,
+        roboto, noto,
+        'segoe ui', arial,
+        sans-serif;
+}
+
+.striped {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid var(--table-stroke-color);
+}
+
+.striped td,
+.striped th {
+    padding: 0.5rem 1rem;
+}
+
+.striped td {
+    border-top: 1px solid var(--table-stroke-color);
+    border-bottom: 1px solid var(--table-stroke-color);
+}
+
+.striped th {
+    text-align: left;
+}
+
+.striped tr:nth-child(2n+1) {
+    background-color: var(--table-row-color);
+}
+
+caption {
+    margin-bottom: 0.5rem;
+}
+
+.i {
+    font-style: italic;
+}
+
+
+
+// Border radius
+.br-100 {
+    border-radius: 100%;
+}
+
+.br-round {
+    border-radius: 0.25em;
+}
+
+.br-pill {
+    border-radius: 9999px;
+}
+
+// Border color
+.b--divider {
+    border-color: var(--divider-color);
+}
+
+// Background color
+.bg-mid-gray {
+    background-color: var(--mid-gray);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+// Text color
+.white {
+    color: var(--white);
+}
+
+.near-black {
+    color: var(--near-black)
+}
+
+.mid-gray {
+    color: var(--mid-gray);
+}
+
+// Border styling
+.ba {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.bb {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.bt {
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.bw1 {
+    border-width: .125rem;
+}
+
+.bw2 {
+    border-width: .25rem;
+}
+
+
+
+.ba0 {
+    border: none;
+}
+
+kbd {
+    font-size: 1rem;
+    background: var(--kbd-bg-color);
+    padding: 0.25rem 0.375rem;
+    border-radius: 0.25rem;
+    line-height: 1;
+    border: 1px solid var(--kbd-stroke-color);
+    white-space: nowrap;
+}
+
+blockquote {
+    padding-left: var(--spacing-medium);
+    border-left: 2px solid var(--blue);
+
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+pre code {
+    white-space: pre-wrap;
+    display: block;
+    width: 100%;
+}
+
+.photoset {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 0.25rem;
+}
+
+.photoset img {
+    max-width: 100%;
+}
+
+.form-field {
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    border: 2px solid var(--body-color);
+    padding: 1em;
+
+    &:focus {
+        box-shadow: 0 0 0 3px var(--blue);
+    }
+}
+
+.btn {
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+@import 'media-queries';
+
+//  Modules 
+@import 'display';
+@import 'flexbox';
+@import 'font-weight';
+@import 'heights';
+@import 'line-height';
+@import 'lists';
+@import 'max-widths';
+@import 'media-queries';
+@import 'widths';
+@import 'spacing';
+@import 'text-transform';
+@import 'type-scale';
+@import 'typography';
+@import 'utilities';
+@import 'visibility';
+@import 'syntax';
+@import 'embed';
+@import "links";
+@import "theme-switch";
+@import "photos"

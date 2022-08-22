@@ -1,5 +1,5 @@
 {
-    "layout": "layouts/base.liquid",
+    "layout": "layouts/base.njk",
     "tags": "talks",
     "permalink": "talks/{{ page.date | date: '%Y/%m/%d' }}/{{ title | slug }}/index.html"
 

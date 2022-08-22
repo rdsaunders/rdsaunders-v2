@@ -9,11 +9,5 @@ geolocation:
   longitude: ''
 photoset: ''
 category: []
-tags:
-- painting
-- " bnw"
-- " people"
-- girl
-- daughter
-
+tags: [painting, bnw, people, girl, daughter]
 ---

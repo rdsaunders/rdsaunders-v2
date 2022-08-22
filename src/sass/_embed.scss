@@ -1,0 +1,37 @@
+  .embed {
+    position: relative;
+    padding-bottom: 66.66667%;
+    height: 0;
+    }
+    
+    .embed-iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    }
+    
+    [class*="embed--"] {
+    position: relative;
+    padding-bottom: percentage(2 / 3);
+    height: 0;
+    }
+    
+    .embed--slidedeck {
+    padding-top: 63px; // Speaker Deck player header and footer height
+    padding-bottom: percentage(3 / 4);
+    }
+    
+    .embed--video,
+    .embed[data-embed-ratio="16/9"] {
+    padding-bottom: percentage(9 / 16);
+    }
+    
+    .embed--video,
+    .embed[data-embed-ratio="16/10"] {
+    padding-bottom: percentage(10 / 16);
+    }
+    

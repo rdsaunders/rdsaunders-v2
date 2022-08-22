@@ -1,10 +1,10 @@
 ---
-title: "Stream"
-layout: "layouts/base.liquid"
+title: "Checkins"
+layout: "layouts/base.njk"
 ---
 
 <ul>
-    {%- for item in collections.all reversed -%}
+    {%- for item in collections.checkins reversed -%}
         <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
     {%- endfor -%}
 </ul>

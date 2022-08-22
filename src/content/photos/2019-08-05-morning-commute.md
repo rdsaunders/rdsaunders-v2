@@ -8,11 +8,7 @@ geolocation:
   longitude: ''
 photoset: ''
 category: []
-tags:
-- train
-- communte
-- black and white
-- bnw
+tags: [train, communte, black and white, bnw]
 altText: 'People waiting for a train at a railway station. '
 
 ---

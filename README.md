@@ -15,7 +15,7 @@
 
 ## Layout
 
-The layouts for each content type are located in '/src/_includes/layouts/` they inherit `base.liquid`
+The layouts for each content type are located in '/src/_includes/layouts/` they inherit `base.njk`
 
 ## Transforms
 

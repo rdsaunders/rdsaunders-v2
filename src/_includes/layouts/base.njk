@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png"><!- todo -->
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="{{ site.theme_color }}"><!- todo -->
+    <link rel="manifest" href="{{ site.url }}/manifest.json"/><!- todo -->
+
+    <meta charset="utf-8"/>
+    <meta name="author" content="{{ site.author }}"/>
+    <meta name="referrer" content="origin"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="theme-color" content="{{ site.theme_color }}"/>
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="application-name" content="{{ site.title }}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>{{ title }}</title>
+    
+    
+    <link rel="stylesheet" href="{{ '/css/styles.css' | url }}" />
+</head>
+<body id="top" class="sans-serif f4-l ma0-l mw7-m mw8-l mh3-ns mh5-m mh6-l">
+    {% iconsprite %}
+    <header class="pt5 mb4 f5 flex-l items-center  | h-card">
+
+        <a class="logo f4 f3-m f3-l fw7 mb4 mb4-m mb0-l mr2-ns lh-solid no-underline flex items-center  | u-url u-uid" href="{{ site.url }}" title="{{ site.title }}" rel="me">
+          <svg width="48" height="48" class="icon pr2 | u-logo" preserveAspectRatio="xMinYMin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-labelledby="logoTitle">
+            <title id="logoTitle">Richard Saunders</title>
+            <path class="cls-1" d="M9.42 14.11a40 40 0 0 1 23-13.39A40.65 40.65 0 0 1 46.77.58a40 40 0 0 1 19 8.79q.67.56 1.32 1.15a1.24 1.24 0 0 1 .29.27 1.57 1.57 0 0 1-.1.48q-.1.53-.17 1.07a39.65 39.65 0 0 0-.25 4c-.06 2.39-.1 4.8-.17 7.18a64.76 64.76 0 0 1-.4 6.82 10.06 10.06 0 0 1-.81 3.1 3.59 3.59 0 0 1-2.24 1.82 5 5 0 0 1-3.61-.08 6.87 6.87 0 0 1-2.77-2.37 15.16 15.16 0 0 1-2.16-7.79c-.12-2.52.44-5.1 2.41-6.82a8.43 8.43 0 0 1 3-1.6 1.88 1.88 0 0 0 .46-.21.4.4 0 0 0 0-.07 1.18 1.18 0 0 0-.06-.32l-.64-3.06-1.57-7.36-.1-.49a15.47 15.47 0 0 0-6.87 3.16 15.36 15.36 0 0 0-4.47 6.52 22.91 22.91 0 0 0-1.2 8.54 34.49 34.49 0 0 0 1.47 9.09c1.64 5.3 4.8 10.51 9.91 13.07a13.12 13.12 0 0 0 8.08 1.24 12.58 12.58 0 0 0 7-3.3c4.31-4.26 4.56-10.61 4.83-16.29q.06-1.2.1-2.4a39.6 39.6 0 0 1-11.79 45.81l-1.69-2.17-4.16-5.31-5.15-6.59-4.74-6.06-2.85-3.68a.91.91 0 0 0-.32-.36 1.49 1.49 0 0 0-.39.32l-.76.6-5.54 4.3-6.3 4.92c-1.15.89-2.31 1.77-3.43 2.69a21.1 21.1 0 0 0-7.72 12.13 17.7 17.7 0 0 0-.32 3.81A40.08 40.08 0 0 1 5.57 59.99a39.47 39.47 0 0 1-2.8-5.71c3.71-.94 7.95-1.49 10.61-4.54a7.83 7.83 0 0 0 1.41-2.27 8 8 0 0 0 .38-1.38q.06-.32.11-.67c0-.11 0-.56.17-.49a2.18 2.18 0 0 1 .35.56q.2.32.42.61a13 13 0 0 0 .83 1 10.41 10.41 0 0 0 1.82 1.68c3 2.11 7.31 2.18 10.72 1a11.81 11.81 0 0 0 7.32-7.79 16.11 16.11 0 0 0 .28-7.6l-.62-3.45-1-5.83-1.17-6.53-1-5.55c-.17-1-.28-2-.52-2.94a.28.28 0 0 0 0-.13l-2.31.43-5.6 1-6.78 1.19-5.88 1-2.85.5zM2.57 25.73a39.73 39.73 0 0 0-2.21 19.2c1.53-.4 3.06-.83 4.55-1.35a10.36 10.36 0 0 0 3.38-1.82 5.16 5.16 0 0 0 1.66-2.53 9.46 9.46 0 0 0 .11-3.87c-.36-2.52-.88-5-1.32-7.55l-.54-3.08-5 .87zm12.86-2.24l3.5-.55 6.2-1 2.09-.32a1.32 1.32 0 0 1 .42-.04c.06 0 0 0 .05.13.13.56.18 1.15.27 1.72l.46 2.94.88 5.58c.34 2.12.64 4.55-.66 6.43a5.81 5.81 0 0 1-3.8 2.15 6.81 6.81 0 0 1-4.82-.5c-2-1.21-2.61-3.73-3-5.89l-.78-5.36-.8-5zm41.23 52.82l-4.53-5.79-7.21-9.23-1.65-2.12-3.78 3c-1.35 1.06-2.77 2.07-4.06 3.2A11.77 11.77 0 0 0 32 70.21a10.53 10.53 0 0 0-.16 6.08 13.67 13.67 0 0 0 1.17 3 .32.32 0 0 0 .32.2l.35.09.89.09q.85.11 1.7.18a40.83 40.83 0 0 0 6.7 0 40.15 40.15 0 0 0 12.25-2.93q.73-.3 1.44-.63z"
+            />
+          </svg>
+          <div class=" | p-name">Richard Saunders <span class="normal db f4 f4-m f4-l fw2 | p-job-title ">Product owner & designer</span></div>
+        </a>
+      
+      
+    {% include "navigation.njk" %}
+
+      
+    </header>
+    
+    <main class="pt4" id="content">
+        {{ content }}
+    </main>
+
+    <footer class="flex f5 items-center mv4">
+
+        <small>©&thinsp;
+            <time>2022</time>
+            <a href="{{ site.url }}" rel="author">Richard Saunders</a>
+            <span>Made with love {% icon "heart" %}in Wales.</span>
+        </small>
+      
+
+        <ul class="list pl0 mv0 flex ml-auto">
+            <li class="pr2">
+                <a class="inline-flex" rel="me" href="https://twitter.com/{{ site.twitter_username }}" aria-label="Follow me on Twitter">
+                    {% icon "twitter" %}
+                </a>
+            </li>
+            <li class="pr2">
+                <a class="inline-flex" rel="me" href="https://dribbble.com/{{ site.dribbble_username }}" aria-label="See my shots on Dribbble">
+                    {% icon "dribble" %}
+                </a>
+            </li>
+            <li class="pr2">
+                <a class="inline-flex" rel="me" href="https://github.com/{{ site.github_username }}" aria-label="View my code on GitHub">
+                    {% icon "github" %}
+                </a>
+            </li>
+            <li class="pr2">
+                <a class="inline-flex" rel="me" href="https://instagram.com/{{ site.instagram_username }}" aria-label="Find me on Instagram">
+                    {% icon "instagram" %}
+                </a>
+            </li>
+        </ul>
+    
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+// BASIC
+:root {
+    --grid-size: 12rem;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(var(--grid-size),1fr));
+    grid-gap: 0.25em;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    line-height: 1;
+  }
+  
+  .gallery_item {
+    position: relative;
+  }
+
+  .gallery_item a {
+    display: block;
+  }
+
+  .gallery_item a:hover {
+    box-shadow: 0 0 0 2px var(--blue);
+  }
+  
+  .gallery_item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }

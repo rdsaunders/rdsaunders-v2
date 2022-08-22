@@ -1,19 +1,20 @@
 ---
-layout: layouts/base.liquid
+layout: layouts/base.njk
 ---
 
 <article class="h-entry">
     <header class="bb bw1 pb3 b--divider">
         <h1 class="f2 f1-l lh-title measure-narrow-ns mt0 mb2 | p-name">{{ title }}</h1>
-        {% include author.html %}
     </header>
+
+    {{/*  <div class="post-meta">{% include author.html %}</div>  */}}
 
     <div class="content pt3 lh-copy measure-wide-m measure-wide-l | e-content">
         {{ content }}
     </div>
 
     {% if tags.size > 1 %}
-    <footer>
+    <footer class="post-footer">
         <div class="mb3 | p-category">
           <b>Tagged:</b> {{ tags | array_to_sentence_string }}
         </div>

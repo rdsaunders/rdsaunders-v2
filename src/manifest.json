@@ -1,0 +1,21 @@
+{
+    "name": "The personal website of Richard Saunders",
+    "short_name": "rdsaunders",
+    "lang": "en-GB",
+    "start_url": "/",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/images/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#307fe2",
+    "background_color": "#f4f4f4"
+  }

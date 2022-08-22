@@ -6,8 +6,6 @@ link: https://www.freecodecamp.org/news/how-to-recreate-mediums-article-layout-w
 excerpt: When people think of CSS Grid they normally envision image grid layouts and
   full web pages. However, CSS Grid is actually a superb technology for laying out
   articles as well, as it allows you to do things which previously was tricky to achieve.
-tags:
-- CSS
-- Front-end development
+tags: [css, front-end, development]
 
 ---

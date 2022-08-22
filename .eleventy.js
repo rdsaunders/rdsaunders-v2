@@ -1,5 +1,9 @@
 // Import transforms
 const parseTransform = require('./src/transforms/parse-html.js');
+const pluginNavigation = require("@11ty/eleventy-navigation");
+const pluginSvgSprite = require("eleventy-plugin-svg-sprite");
+
+const shortcodes = require('./utils/shortcodes.js')
 
 module.exports = function (eleventyConfig) {
 
@@ -14,8 +18,22 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/css");
     eleventyConfig.addPassthroughCopy("./src/images");
 
+    // Add plugins
+    eleventyConfig.addPlugin(pluginNavigation);
+
 
     eleventyConfig.setDataDeepMerge(true);
+
+    eleventyConfig.addPlugin(pluginSvgSprite, {
+      path: "./src/assets/icons",
+      svgSpriteShortcode: "iconsprite"
+    })
+
+     // Shortcodes
+     Object.keys(shortcodes).forEach((shortcodeName) => {
+      eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName])
+    })
+
 
     eleventyConfig.addCollection("tagList", function(collection) {
         let tagSet = new Set();
@@ -48,6 +66,7 @@ module.exports = function (eleventyConfig) {
       });
 
     return {
+      
         dir: {
             input: "src",
             output: "public"

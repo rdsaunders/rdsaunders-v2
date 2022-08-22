@@ -1,0 +1,17 @@
+<nav class="ml-auto flex-ns items-center" aria-label="Site navigation">
+    {%- for item in collections.all | eleventyNavigation %}
+        {% if item.url == page.url %}
+            <div class="dib mr2" aria-current="page">{{ item.title }}</div>
+        {% else %}
+            <a href="{{ item.url | url }}" class="dib mr2">{{ item.title }}</a>
+        {% endif %}
+    {%- endfor %}
+    <div class="user-toggle dib">
+        <div role="status" class="clip js-mode-status"></div>
+        <button class="toggle-button js-mode-toggle" aria-label="Choose theme">
+            <svg class="icon js-mode-svg" width="16" height="16">
+                <use xlink:href="#moon"></use>
+            </svg>
+        </button>
+    </div>
+</nav>

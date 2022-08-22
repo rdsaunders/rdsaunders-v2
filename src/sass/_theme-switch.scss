@@ -1,0 +1,36 @@
+.no-js .user-toggle {
+  display: none;
+}
+
+.toggle-button {
+  display: inline-flex;
+  background-color: var(--button-bg-color);
+  color: var(--text-color);
+  font-size: 1em;
+  padding: 0rem 0.5em;
+  border: 1px solid transparent;
+  box-shadow: 0 0 0 2px transparent;
+  border-radius: 3px;
+}
+
+.toggle-button:hover {
+background-color: var(--blue);
+color: var(--white);
+}
+
+.toggle-button:focus {
+transition: text-decoration 300ms ease-in ;
+outline: none;
+box-shadow: 0 0 0 2px var(--blue);
+border: 1px solid var(--blue);
+}
+
+.toggle-button__icon {
+  background: var(--button-icon);
+  width: 1.2em;
+  height: 1.2em;
+  margin: 0 0 0 0.5em;
+  filter: var(--button-icon-filter);
+  transform: translateY(1px); /* Optical adjustment */
+  transition: filter 500ms ease-in-out;
+}

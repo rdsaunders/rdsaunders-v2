@@ -1,0 +1,49 @@
+a,
+.link {
+    text-decoration: underline;
+    text-decoration-color: var(--blue);
+    text-decoration-thickness: .08em;
+    text-underline-offset: 0.08em;
+    color: var(--link-txt-color);
+    border: 1px solid transparent;
+    box-shadow: 0 0 0 2px transparent;
+    border-radius: 3px;
+  }
+
+  a:hover,
+  .link:hover   {
+    background-color: var(--blue);
+    color: var(--white);
+    text-decoration: none;
+    transition: background-color 300ms ease-in-out, color 300ms ease-in-out, text-decoration 300ms ease-in-out; 
+  }
+
+  a:active,
+  .link:active  {
+    transition: background-color 300ms ease-in, color 300ms ease-in, text-decoration 300ms ease-in ;
+  }
+
+  a:focus,
+  .link:focus   {
+    transition: text-decoration 300ms ease-in ;
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 2px var(--blue);
+    border: 1px solid var(--blue);
+  }
+  
+  a[rel~=noopener]:after {
+  background: url(../images/svg/external.svg) no-repeat;
+  height: 0.75em;
+  content: "";
+  display: inline-block;
+  width: 0.5em;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  opacity: 0.8;
+  vertical-align: baseline;
+}
+
+ a[rel~=me]:after {
+    background: none;
+}
