@@ -1,13 +1,13 @@
 ---
-title: "Notes"
-layout: "base.njk"
+title: "Talks"
+layout: base
 eleventyNavigation:
-  key: Notes
-  order: 4
+  key: Talks
+  order: 3
 ---
 
 <ul>
-    {% for item in collections.notes | reverse %}
+    {% for item in collections.talks %}
         <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
     {% endfor %}
 </ul>

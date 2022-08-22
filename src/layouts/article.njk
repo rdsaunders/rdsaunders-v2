@@ -1,5 +1,5 @@
 ---
-layout: "base.njk"
+layout: base
 ---
 
 <article class="h-entry">
@@ -13,10 +13,10 @@ layout: "base.njk"
         {{ content }}
     </div>
 
-    {% if tags.size > 1 %}
+    {% if tags %}
     <footer class="post-footer">
         <div class="mb3 | p-category">
-          <b>Tagged:</b> {{ tags | array_to_sentence_string }}
+          <b>Tagged:</b> {{ tags }}
         </div>
     </footer>
     {% endif %} 

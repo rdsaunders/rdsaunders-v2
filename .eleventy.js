@@ -6,42 +6,54 @@ const pluginSvgSprite = require("eleventy-plugin-svg-sprite");
 const filters = require('./utils/filters.js')
 const shortcodes = require('./utils/shortcodes.js')
 
-module.exports = function (eleventyConfig) {
+module.exports = function (config) {
 
 
     // watch for sass changes during 11ty serve
-    eleventyConfig.addWatchTarget("./src/sass/");
+    config.addWatchTarget("./src/sass/");
 
     // Transforms
-    eleventyConfig.addTransform('parse', parseTransform);
+    config.addTransform('parse', parseTransform);
 
-    // Passthrough copy
-    eleventyConfig.addPassthroughCopy("./src/css");
-    eleventyConfig.addPassthroughCopy("./src/images");
+ 
 
     // Add plugins
-    eleventyConfig.addPlugin(pluginNavigation);
+    config.addPlugin(pluginNavigation);
 
 
-    eleventyConfig.setDataDeepMerge(true);
 
-    eleventyConfig.addPlugin(pluginSvgSprite, {
+    config.addPlugin(pluginSvgSprite, {
       path: "./src/assets/icons",
       svgSpriteShortcode: "iconsprite"
     })
 
     // Filters
     Object.keys(filters).forEach((filterName) => {
-        eleventyConfig.addFilter(filterName, filters[filterName])
+        config.addFilter(filterName, filters[filterName])
     })
     
-     // Shortcodes
-     Object.keys(shortcodes).forEach((shortcodeName) => {
-      eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName])
+    // Shortcodes
+    Object.keys(shortcodes).forEach((shortcodeName) => {
+      config.addShortcode(shortcodeName, shortcodes[shortcodeName])
     })
 
+    // Layouts
+    config.addLayoutAlias('base', 'base.njk')
+    config.addLayoutAlias('article', 'article.njk')
+    config.addLayoutAlias('checkins', 'checkins.njk')
+    config.addLayoutAlias('link', 'link.njk')
+    config.addLayoutAlias('photo', 'photo.njk')
 
-    eleventyConfig.addCollection("tagList", function(collection) {
+   // Passthrough file copy
+   config.addPassthroughCopy("./src/css");
+   config.addPassthroughCopy("./src/images");
+
+   // Deep merge
+   config.setDataDeepMerge(true);
+
+
+
+    config.addCollection("tagList", function(collection) {
         let tagSet = new Set();
         collection.getAll().forEach(function(item) {
           if( "tags" in item.data ) {
@@ -53,7 +65,7 @@ module.exports = function (eleventyConfig) {
                 case "all":
                 case "nav":
                 case "post":
-                case "posts":
+                case "articles":
                 case "photos":
                   return false;
               }
@@ -72,9 +84,8 @@ module.exports = function (eleventyConfig) {
       });
 
 
-    // Base configuation
+    // Base configuration
     return {
-      
         dir: {
             input: "src",
             output: "public",

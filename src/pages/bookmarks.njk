@@ -1,13 +1,13 @@
 ---
-title: "Activity"
-layout: "base.njk"
+title: "Bookmarks"
+layout: base
 eleventyNavigation:
-  key: Stream
-  order: 2
+  key: Bookmarks
+  order: 6
 ---
 
 <ul>
-    {% for item in collections.activity %}
+    {% for item in collections.bookmarks | reverse %}
         <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
     {% endfor %}
 </ul>

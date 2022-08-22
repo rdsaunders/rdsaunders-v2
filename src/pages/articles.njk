@@ -1,6 +1,6 @@
 ---
 title: "Articles"
-layout: "base.njk"
+layout: base
 eleventyNavigation:
   key: Articles
   order: 1
@@ -18,21 +18,22 @@ eleventyNavigation:
     </h2>
 
     <div class="mb2">
-      <time class="f5 mid-gray db" datetime="{{ item.date }}">{{ item.date }}</time>
+      <time class="f5 mid-gray db" datetime="{{ item.date | dateToISO }}">{{ item.date | readableDate('dd LLLL yyyy') }}</time>
     </div>
 
     <div class="lh-copy measure-wide-m measure-wide-l">
-      {{ item.excerpt }}
+      {{ item.data.excerpt }}
     </div>
 
-    {%- if item.external %}
+    {%- if item.data.external %}
     <p>
       Article originally written for
-      <span class="br-pill bw2 pv1 ph2 bg-mid-gray white dib">{{item.publication}}</span>
+      <span class="br-pill bw2 pv1 ph2 bg-mid-gray white dib">{{item.data.publication}}</span>
     </p>
-    {%- endif %} {% if item.tags.size > 0 %}
+    {%- endif %} 
+    {% if item.data.tags %}
     <div class="mt3">
-      <b>Tagged with:</b> {{ item.tags | array_to_sentence_string }}
+      <b>Tagged with:</b> {{ item.data.tags }}
     </div>
     {%- endif %}
   </article>
