@@ -3,6 +3,7 @@ const parseTransform = require('./src/transforms/parse-html.js');
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const pluginSvgSprite = require("eleventy-plugin-svg-sprite");
 
+const filters = require('./utils/filters.js')
 const shortcodes = require('./utils/shortcodes.js')
 
 module.exports = function (eleventyConfig) {
@@ -29,6 +30,11 @@ module.exports = function (eleventyConfig) {
       svgSpriteShortcode: "iconsprite"
     })
 
+    // Filters
+    Object.keys(filters).forEach((filterName) => {
+        eleventyConfig.addFilter(filterName, filters[filterName])
+    })
+    
      // Shortcodes
      Object.keys(shortcodes).forEach((shortcodeName) => {
       eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName])
@@ -65,11 +71,20 @@ module.exports = function (eleventyConfig) {
         return [...tagSet];
       });
 
+
+    // Base configuation
     return {
       
         dir: {
             input: "src",
-            output: "public"
+            output: "public",
+            includes: "includes",
+            layouts: "layouts",
+            data: "data"
         },
+        templateFormats: ['njk', 'md', '11ty.js'],
+        htmlTemplateEngine: 'njk',
+        markdownTemplateEngine: 'njk'
     };
+
 };

@@ -1,5 +1,5 @@
 {
-    "layout": "layouts/link.liquid",
+    "layout": "link.liquid",
     "tags": "bookmarks",
-    "permalink": "bookmarks/{{ page.date | date: '%Y/%m/%d' }}/{{ title | slug }}/index.html"
+    "permalink": "bookmarks/{{ page.fileSlug }}/index.html"
 }

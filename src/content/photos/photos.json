@@ -1,5 +1,5 @@
 {
-    "layout": "layouts/photo.liquid",
+    "layout": "photo.liquid",
     "tags": "photos",
-    "permalink": "photos/{{ page.date | date: '%Y/%m/%d' }}/{{ page.fileSlug }}/index.html"
+    "permalink": "photos/{{ page.date | dateToFormat('yyyy-MM-dd') }}/{{ page.fileSlug }}/index.html"
 }

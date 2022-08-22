@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy-navigation": "^0.3.5",
-    "eleventy-plugin-svg-sprite": "^1.2.2"
+    "eleventy-plugin-svg-sprite": "^1.2.2",
+    "luxon": "^3.0.1"
   }
 }
