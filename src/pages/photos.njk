@@ -1,6 +1,6 @@
 ---
 title: Photos
-layout: base
+layout: page-wide
 pagination:
   data: collections.photos
   reverse: true
@@ -10,8 +10,14 @@ eleventyNavigation:
   order: 5
 ---
 
-<ul>
+<ul class="gallery">
     {% for item in pagination.items %}
-        <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+      <li class="gallery_item">
+        <article class="h-entry">
+					<a class="u-url" href="{{ item.url }}" rel="bookmark">
+            <img loading="lazy" class="u-photo" src="{{ site.cloudinary_url }}image/upload/w_320,h_320,c_fill,f_auto/photo_blog{{ item.data.image }}" width="320px" height="320px" alt="{{ item.data.altText }}"/>
+          </a>
+        </article>
+      </li>
     {% endfor %}
 </ul>

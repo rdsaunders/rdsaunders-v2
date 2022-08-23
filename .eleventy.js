@@ -43,6 +43,7 @@ module.exports = function (config) {
     config.addLayoutAlias('checkins', 'checkins.njk')
     config.addLayoutAlias('link', 'link.njk')
     config.addLayoutAlias('photo', 'photo.njk')
+    config.addLayoutAlias('page-wide', 'page-wide.njk')
 
    // Passthrough file copy
    config.addPassthroughCopy("./src/css");

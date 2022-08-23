@@ -10,7 +10,7 @@ layout: base
     {# <div class="post-meta">{% include author.html %}</div> #}
 
     <div class="content pt3 lh-copy measure-wide-m measure-wide-l | e-content">
-        {{ content }}
+        {{ content | safe }}
     </div>
 
     {% if tags %}
