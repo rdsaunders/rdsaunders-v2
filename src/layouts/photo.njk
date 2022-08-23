@@ -1,14 +1,12 @@
 ---
 layout: base
-seo:
-    type: Photograph
 ---
 <article class="h-entry">
     <header class="mb3">
         <h1 class="f4 f3-l lh-title mt0 mb2 | p-name">{{ title }}</h1>
-        <time class="ttu tracked f6 mid-gray dib | dt-published" datetime="{{ published | date_to_xmlschema }}">{{ date | date_to_long_string }}</time>
+        <time class="ttu tracked f6 mid-gray dib | dt-published" datetime="{{ published | dateToISO }}">{{ date | readableDate('dd LLLL yyyy') }}</time>
         
-        {{/*  {% include location.html %}  */}}
+         {# {% include location.html %} #}
 
     </header>
 
@@ -18,22 +16,22 @@ seo:
 
             <img loading="lazy" src="{{ image }}" class="u-photo" alt="{{ altText}}" />
         
-            {% if content.size > 1 %}        
-                {{ content | markdownify}}
+            {% if content %}        
+                {{ content | safe }}
             {% endif %}
 
     </div>
 
-    {% if tags.size > 1 %}
+    {% if tags %}
     <footer class="bt f5 b--divider">
         <div class="mv3">
-            <b>Tagged:</b> {{ tags | sort | join: ", " }}
+            <b>Tagged:</b> {{ tags }}
         </div>
     </footer>
     {% endif %} 
 
 
-    {{/*  {% include post-navigation.html %}  */}}
+    {# {% include post-navigation.html %} #}
 
 </article>
 

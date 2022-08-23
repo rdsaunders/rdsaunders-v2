@@ -1,10 +1,14 @@
 ---
-title: "Checkins"
+title: Stream
 layout: base
+eleventyNavigation:
+  key: Stream
+  order: 2
+permalink: /stream/
 ---
 
 <ul>
-    {%- for item in collections.checkins | reverse -%}
+    {%- for item in collections.all | reverse -%}
         <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
     {%- endfor -%}
 </ul>

@@ -1,5 +1,5 @@
 {
     "layout": "photo",
     "tags": "photos",
-    "permalink": "photos/{{ page.date | dateToFormat('yyyy') }}/{{ page.date | dateToFormat('LL')}}/{{ page.date | dateToFormat('dd')}}/{{ page.fileSlug }}/index.html"
+    "permalink": "/photos/{{ page.date | dateToFormat('yyyy') }}/{{ page.date | dateToFormat('LL')}}/{{ page.date | dateToFormat('dd')}}/{{ page.fileSlug }}/index.html"
 }
